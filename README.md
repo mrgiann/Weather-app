@@ -1,6 +1,6 @@
 # Weather-app
 
-La Weather App es una aplicación web sencilla que utiliza la API de OpenWeatherMap para obtener información actualizada sobre el clima de cualquier lugar del mundo. Simplemente ingresa el nombre de la ciudad en el campo de búsqueda y obtén detalles como la temperatura, la sensación térmica, la humedad, la presión, la velocidad y dirección del viento, así como una descripción general del clima.
+The Weather App is a simple web application that uses the OpenWeatherMap API to get up-to-date weather information for any location in the world. Simply enter the name of the city in the search field and get details such as temperature, wind chill, humidity, pressure, wind speed and direction, as well as an overview of the weather.
 
 Visit: https://mrgiann.github.io/Weather-app/
 
