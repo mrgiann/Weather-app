@@ -1,0 +1,65 @@
+body {
+  background-color: #2c3e50; /* Color de fondo oscuro */
+  color: #ffffff; /* Color de texto blanco */
+  text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#container {
+  text-align: center;
+}
+
+/* Estilos para el formulario y botón de búsqueda */
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #ffffff; /* Fondo blanco para el input */
+  color: #333333; /* Texto oscuro para el input */
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0353a8; /* Cambio al hacer hover */
+}
+
+/* Estilos para la temperatura y la información adicional */
+#temperature-display {
+  font-size: 30px;
+  margin-top: 20px;
+  display: flex;
+}
+
+#additional-info {
+  margin-top: 20px;
+  font-size: 20px;
+  list-style-type: circle;
+  text-align: start;
+}
+
+#temperature-display,
+img {
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+#city-element{
+  font-size: 20px;
+}
