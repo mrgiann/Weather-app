@@ -4,4 +4,5 @@ The Weather App is a simple web application that uses the OpenWeatherMap API to 
 
 Visit: https://mrgiann.github.io/Weather-app/
 
-![image](https://github.com/mrgiann/Weather-app/assets/82038942/a79abb63-6fc2-4a4f-9ce6-8479032bbf6e)
+![image](https://github.com/mrgiann/Weather-app/assets/82038942/f5bfcc82-c1af-40a5-a0a9-c5b5ba73234a)
+
