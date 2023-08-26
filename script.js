@@ -23,7 +23,7 @@ function searchWeather() {
   const searchValue = searchInput.value.trim();
 
   if (searchValue) {
-    const query = `${apiUrl}q=${encodeURIComponent(searchValue)}&appid=${apiKey}&units=metric`;
+    const query = `${apiUrl}q=${encodeURIComponent(searchValue)}&appid=${apiKey}&units=metric&lang=es`;
 
     fetch(query)
       .then(response => response.json())
@@ -41,8 +41,6 @@ function searchWeather() {
         errorElement.innerHTML = "";
         cityElement.innerHTML = `Resultados para ${data.name}`;
         temperatureDisplay.innerHTML = `<p>${temperature}°C</p>`;
-      
-
 
         additionalInfo.innerHTML = `
         <li>Sensación térmica: ${feelsLike}°C</li>
